@@ -1,0 +1,1142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.2">
+  <object class="tk.Toplevel" id="toplevel1">
+    <property name="height">200</property>
+    <property name="resizable">none</property>
+    <property name="title" translatable="yes">Interactive Manual</property>
+    <property name="width">200</property>
+    <child>
+      <object class="ttk.Frame" id="frame114">
+        <property name="height">200</property>
+        <property name="width">200</property>
+        <layout manager="pack">
+          <property name="expand">true</property>
+          <property name="fill">x</property>
+          <property name="side">top</property>
+        </layout>
+        <child>
+          <object class="ttk.Menubutton" id="menubutton3">
+            <property name="text" translatable="yes">Open Chart</property>
+            <layout manager="pack">
+              <property name="anchor">w</property>
+              <property name="expand">true</property>
+              <property name="fill">x</property>
+              <property name="padx">5</property>
+              <property name="pady">5</property>
+              <property name="side">top</property>
+            </layout>
+            <child>
+              <object class="tk.Menu" id="menu3">
+                <child>
+                  <object class="tk.Menuitem.Command" id="command2">
+                    <property name="command" type="command" cbtype="simple">cmd_symbols</property>
+                    <property name="label" translatable="yes">Keypad (Symbols)</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Menuitem.Command" id="command3">
+                    <property name="command" type="command" cbtype="simple">cmd_simon_says</property>
+                    <property name="label" translatable="yes">Simon Says</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Menuitem.Command" id="command4">
+                    <property name="command" type="command" cbtype="simple">cmd_whos_on_first1</property>
+                    <property name="label" translatable="yes">Who's on First I</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Menuitem.Command" id="command5">
+                    <property name="command" type="command" cbtype="simple">cmd_whos_on_first2</property>
+                    <property name="label" translatable="yes">Who's on First II</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Menuitem.Command" id="command6">
+                    <property name="command" type="command" cbtype="simple">cmd_memory</property>
+                    <property name="label" translatable="yes">Memory</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Menuitem.Command" id="command7">
+                    <property name="command" type="command" cbtype="simple">cmd_mazes</property>
+                    <property name="label" translatable="yes">Mazes</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Menuitem.Command" id="command8">
+                    <property name="command" type="command" cbtype="simple">cmd_knob</property>
+                    <property name="label" translatable="yes">Knob</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Frame" id="frame23">
+        <property name="height">200</property>
+        <property name="width">200</property>
+        <layout manager="pack">
+          <property name="side">top</property>
+        </layout>
+        <child>
+          <object class="ttk.Frame" id="frame9">
+            <property name="height">200</property>
+            <property name="width">200</property>
+            <layout manager="pack">
+              <property name="expand">true</property>
+              <property name="fill">both</property>
+              <property name="side">left</property>
+            </layout>
+            <child>
+              <object class="ttk.Labelframe" id="labelframe2">
+                <property name="height">200</property>
+                <property name="text" translatable="yes">Wires</property>
+                <property name="width">200</property>
+                <layout manager="pack">
+                  <property name="expand">true</property>
+                  <property name="fill">both</property>
+                  <property name="padx">5</property>
+                  <property name="pady">5</property>
+                  <property name="side">left</property>
+                </layout>
+                <child>
+                  <object class="ttk.Frame" id="frame10">
+                    <property name="height">200</property>
+                    <property name="width">200</property>
+                    <layout manager="pack">
+                      <property name="anchor">n</property>
+                      <property name="expand">true</property>
+                      <property name="fill">x</property>
+                      <property name="padx">5</property>
+                      <property name="pady">5</property>
+                      <property name="side">top</property>
+                    </layout>
+                    <child>
+                      <object class="ttk.Frame" id="frame115">
+                        <property name="height">200</property>
+                        <property name="width">200</property>
+                        <layout manager="pack">
+                          <property name="expand">true</property>
+                          <property name="fill">x</property>
+                          <property name="side">left</property>
+                        </layout>
+                        <child>
+                          <object class="ttk.Frame" id="frame116">
+                            <property name="height">200</property>
+                            <property name="width">200</property>
+                            <layout manager="pack">
+                              <property name="expand">true</property>
+                              <property name="fill">x</property>
+                              <property name="side">left</property>
+                            </layout>
+                            <child>
+                              <object class="ttk.Button" id="button185">
+                                <property name="command" type="command" cbtype="simple">button_wires_red</property>
+                                <property name="image">ff0000.png</property>
+                                <property name="text" translatable="yes">Red</property>
+                                <layout manager="pack">
+                                  <property name="expand">true</property>
+                                  <property name="fill">x</property>
+                                  <property name="side">top</property>
+                                </layout>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="ttk.Button" id="button186">
+                                <property name="command" type="command" cbtype="simple">button_wires_yellow</property>
+                                <property name="image">ffff00.png</property>
+                                <property name="text" translatable="yes">Yellow</property>
+                                <layout manager="pack">
+                                  <property name="expand">true</property>
+                                  <property name="fill">x</property>
+                                  <property name="side">top</property>
+                                </layout>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="ttk.Frame" id="frame12">
+                        <property name="height">200</property>
+                        <property name="width">200</property>
+                        <layout manager="pack">
+                          <property name="expand">true</property>
+                          <property name="fill">x</property>
+                          <property name="side">right</property>
+                        </layout>
+                        <child>
+                          <object class="ttk.Frame" id="frame13">
+                            <property name="height">200</property>
+                            <property name="width">200</property>
+                            <layout manager="pack">
+                              <property name="expand">true</property>
+                              <property name="fill">x</property>
+                              <property name="side">left</property>
+                            </layout>
+                            <child>
+                              <object class="ttk.Button" id="btn_wires_blue">
+                                <property name="command" type="command" cbtype="simple">button_wires_blue</property>
+                                <property name="image">0000ff.png</property>
+                                <property name="text" translatable="yes">Blue</property>
+                                <layout manager="pack">
+                                  <property name="expand">true</property>
+                                  <property name="fill">x</property>
+                                  <property name="ipadx">7</property>
+                                  <property name="side">top</property>
+                                </layout>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="ttk.Button" id="btn_wires_white">
+                                <property name="command" type="command" cbtype="simple">button_wires_white</property>
+                                <property name="image">ffffff.png</property>
+                                <property name="text" translatable="yes">White</property>
+                                <layout manager="pack">
+                                  <property name="expand">true</property>
+                                  <property name="fill">x</property>
+                                  <property name="side">top</property>
+                                </layout>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Frame" id="frame14">
+                            <property name="height">200</property>
+                            <property name="width">200</property>
+                            <layout manager="pack">
+                              <property name="expand">true</property>
+                              <property name="fill">x</property>
+                              <property name="side">right</property>
+                            </layout>
+                            <child>
+                              <object class="ttk.Button" id="btn_wires_green">
+                                <property name="command" type="command" cbtype="simple">button_wires_green</property>
+                                <property name="image">00ff00.png</property>
+                                <property name="text" translatable="yes">Green</property>
+                                <layout manager="pack">
+                                  <property name="expand">true</property>
+                                  <property name="fill">x</property>
+                                  <property name="ipadx">10</property>
+                                  <property name="side">top</property>
+                                </layout>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="ttk.Button" id="btn_wires_black">
+                                <property name="command" type="command" cbtype="simple">button_wires_black</property>
+                                <property name="image">000000.png</property>
+                                <property name="text" translatable="yes">Black</property>
+                                <layout manager="pack">
+                                  <property name="expand">true</property>
+                                  <property name="fill">x</property>
+                                  <property name="side">top</property>
+                                </layout>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Checkbutton" id="checkbox_wires_serialOdd">
+                    <property name="offvalue">0</property>
+                    <property name="onvalue">1</property>
+                    <property name="text" translatable="yes">Last Digit of Serial No. is Odd (4-6)</property>
+                    <layout manager="pack">
+                      <property name="side">top</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Entry" id="entry_wires_wireCombo">
+                    <layout manager="pack">
+                      <property name="anchor">n</property>
+                      <property name="expand">true</property>
+                      <property name="fill">x</property>
+                      <property name="padx">5</property>
+                      <property name="side">top</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Button" id="btn_wires_clear">
+                    <property name="command" type="command" cbtype="simple">button_wires_clear</property>
+                    <property name="text" translatable="yes">Clear</property>
+                    <layout manager="pack">
+                      <property name="anchor">n</property>
+                      <property name="expand">false</property>
+                      <property name="fill">x</property>
+                      <property name="padx">5</property>
+                      <property name="side">top</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Button" id="btn_wires_process">
+                    <property name="command" type="command" cbtype="simple">button_wires_process</property>
+                    <property name="text" translatable="yes">Process</property>
+                    <layout manager="pack">
+                      <property name="anchor">n</property>
+                      <property name="expand">false</property>
+                      <property name="fill">x</property>
+                      <property name="padx">5</property>
+                      <property name="pady">5</property>
+                      <property name="side">top</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="label_wires_output">
+                    <property name="font">{Cascadia Code} 12 {}</property>
+                    <property name="text" translatable="yes">???</property>
+                    <layout manager="pack">
+                      <property name="anchor">s</property>
+                      <property name="expand">true</property>
+                      <property name="pady">5</property>
+                      <property name="side">top</property>
+                    </layout>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Labelframe" id="labelframe3">
+                <property name="height">200</property>
+                <property name="text" translatable="yes">Big Button</property>
+                <property name="width">200</property>
+                <layout manager="pack">
+                  <property name="expand">true</property>
+                  <property name="fill">both</property>
+                  <property name="padx">5</property>
+                  <property name="pady">5</property>
+                  <property name="side">right</property>
+                </layout>
+                <child>
+                  <object class="ttk.Frame" id="frame22">
+                    <property name="height">200</property>
+                    <property name="width">200</property>
+                    <layout manager="pack">
+                      <property name="anchor">n</property>
+                      <property name="expand">true</property>
+                      <property name="fill">x</property>
+                      <property name="side">top</property>
+                    </layout>
+                    <child>
+                      <object class="ttk.Frame" id="frame15">
+                        <property name="height">200</property>
+                        <property name="width">200</property>
+                        <layout manager="pack">
+                          <property name="anchor">n</property>
+                          <property name="expand">true</property>
+                          <property name="fill">x</property>
+                          <property name="padx">5</property>
+                          <property name="side">top</property>
+                        </layout>
+                        <child>
+                          <object class="ttk.Button" id="btn_bigButton_red">
+                            <property name="command" type="command" cbtype="simple">button_bigButton_red</property>
+                            <property name="text" translatable="yes">Red</property>
+                            <layout manager="pack">
+                              <property name="expand">true</property>
+                              <property name="fill">x</property>
+                              <property name="side">left</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Frame" id="frame16">
+                            <property name="height">200</property>
+                            <property name="width">200</property>
+                            <layout manager="pack">
+                              <property name="expand">true</property>
+                              <property name="fill">x</property>
+                              <property name="side">right</property>
+                            </layout>
+                            <child>
+                              <object class="ttk.Button" id="btn_bigButton_blue">
+                                <property name="command" type="command" cbtype="simple">button_bigButton_blue</property>
+                                <property name="text" translatable="yes">Blue</property>
+                                <layout manager="pack">
+                                  <property name="expand">true</property>
+                                  <property name="fill">x</property>
+                                  <property name="side">left</property>
+                                </layout>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="ttk.Button" id="btn_bigButton_yellow">
+                                <property name="command" type="command" cbtype="simple">button_bigButton_yellow</property>
+                                <property name="text" translatable="yes">Yellow</property>
+                                <layout manager="pack">
+                                  <property name="expand">true</property>
+                                  <property name="fill">x</property>
+                                  <property name="side">right</property>
+                                </layout>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="ttk.Frame" id="frame17">
+                        <property name="height">200</property>
+                        <property name="width">200</property>
+                        <layout manager="pack">
+                          <property name="anchor">n</property>
+                          <property name="expand">true</property>
+                          <property name="fill">x</property>
+                          <property name="padx">5</property>
+                          <property name="side">top</property>
+                        </layout>
+                        <child>
+                          <object class="ttk.Button" id="btn_bigButton_white">
+                            <property name="command" type="command" cbtype="simple">button_bigButton_white</property>
+                            <property name="text" translatable="yes">White</property>
+                            <layout manager="pack">
+                              <property name="anchor">n</property>
+                              <property name="expand">true</property>
+                              <property name="fill">x</property>
+                              <property name="side">left</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Button" id="btn_bigButton_black">
+                            <property name="command" type="command" cbtype="simple">button_bigButton_black</property>
+                            <property name="text" translatable="yes">Black</property>
+                            <layout manager="pack">
+                              <property name="anchor">n</property>
+                              <property name="expand">true</property>
+                              <property name="fill">x</property>
+                              <property name="side">right</property>
+                            </layout>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Frame" id="frame18">
+                    <property name="height">200</property>
+                    <property name="width">200</property>
+                    <layout manager="pack">
+                      <property name="anchor">n</property>
+                      <property name="padx">5</property>
+                      <property name="pady">5</property>
+                      <property name="side">top</property>
+                    </layout>
+                    <child>
+                      <object class="ttk.Frame" id="frame19">
+                        <property name="height">200</property>
+                        <property name="width">200</property>
+                        <layout manager="pack">
+                          <property name="expand">true</property>
+                          <property name="fill">x</property>
+                          <property name="side">left</property>
+                        </layout>
+                        <child>
+                          <object class="ttk.Button" id="btn_bigButton_abort">
+                            <property name="command" type="command" cbtype="simple">button_bigButton_abort</property>
+                            <property name="text" translatable="yes">Abort</property>
+                            <layout manager="pack">
+                              <property name="expand">true</property>
+                              <property name="fill">x</property>
+                              <property name="side">left</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Button" id="btn_bigButton_detonate">
+                            <property name="command" type="command" cbtype="simple">button_bigButton_detonate</property>
+                            <property name="text" translatable="yes">Detonate</property>
+                            <layout manager="pack">
+                              <property name="expand">true</property>
+                              <property name="fill">x</property>
+                              <property name="side">right</property>
+                            </layout>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="ttk.Frame" id="frame20">
+                        <property name="height">200</property>
+                        <property name="width">200</property>
+                        <layout manager="pack">
+                          <property name="expand">true</property>
+                          <property name="fill">x</property>
+                          <property name="side">top</property>
+                        </layout>
+                        <child>
+                          <object class="ttk.Button" id="btn_bigButton_hold">
+                            <property name="command" type="command" cbtype="simple">button_bigButton_hold</property>
+                            <property name="text" translatable="yes">Hold</property>
+                            <layout manager="pack">
+                              <property name="expand">true</property>
+                              <property name="fill">x</property>
+                              <property name="side">left</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Button" id="btn_bigButton_press">
+                            <property name="command" type="command" cbtype="simple">button_bigButton_press</property>
+                            <property name="text" translatable="yes">Press</property>
+                            <layout manager="pack">
+                              <property name="expand">true</property>
+                              <property name="fill">x</property>
+                              <property name="side">left</property>
+                            </layout>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Frame" id="frame98">
+                    <property name="height">200</property>
+                    <property name="width">200</property>
+                    <layout manager="pack">
+                      <property name="expand">false</property>
+                      <property name="fill">x</property>
+                      <property name="padx">5</property>
+                      <property name="side">top</property>
+                    </layout>
+                    <child>
+                      <object class="ttk.Label" id="label20">
+                        <property name="text" translatable="yes">No. of Batteries: </property>
+                        <layout manager="pack">
+                          <property name="side">left</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="ttk.Spinbox" id="spinbox_bigButton_batteryc">
+                        <property name="from_">0</property>
+                        <property name="text" translatable="yes">0</property>
+                        <property name="to">3</property>
+                        <layout manager="pack">
+                          <property name="side">right</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Checkbutton" id="checkbox_bigButton_FRK">
+                    <property name="text" translatable="yes">FRK Indicator</property>
+                    <layout manager="pack">
+                      <property name="expand">true</property>
+                      <property name="fill">x</property>
+                      <property name="padx">10</property>
+                      <property name="side">top</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Checkbutton" id="checkbox_bigButton_CAR">
+                    <property name="text" translatable="yes">CAR Indicator</property>
+                    <layout manager="pack">
+                      <property name="expand">true</property>
+                      <property name="fill">x</property>
+                      <property name="padx">10</property>
+                      <property name="side">top</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Button" id="btn_bigButton_clear">
+                    <property name="command" type="command" cbtype="simple">button_bigButton_clear</property>
+                    <property name="text" translatable="yes">Clear</property>
+                    <layout manager="pack">
+                      <property name="expand">true</property>
+                      <property name="fill">x</property>
+                      <property name="padx">5</property>
+                      <property name="pady">5</property>
+                      <property name="side">top</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Button" id="btn_bigButton_process">
+                    <property name="command" type="command" cbtype="simple">button_bigButton_process</property>
+                    <property name="text" translatable="yes">Process</property>
+                    <layout manager="pack">
+                      <property name="expand">true</property>
+                      <property name="fill">x</property>
+                      <property name="padx">5</property>
+                      <property name="side">top</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="label_bigButton_output">
+                    <property name="font">{Cascadia Code} 12 {}</property>
+                    <property name="text" translatable="yes">???</property>
+                    <layout manager="pack">
+                      <property name="pady">10</property>
+                      <property name="side">top</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="label6">
+                    <property name="font">{Cascadia Code} 10 {}</property>
+                    <property name="text" translatable="yes">STRIPS
+-------------
+BLUE   - 4
+YELLOW - 5
+OTHER  - 1</property>
+                    <layout manager="pack">
+                      <property name="expand">true</property>
+                      <property name="fill">x</property>
+                      <property name="padx">5</property>
+                      <property name="side">top</property>
+                    </layout>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Labelframe" id="labelframe7">
+            <property name="height">200</property>
+            <property name="text" translatable="yes">Morse Code</property>
+            <property name="width">200</property>
+            <layout manager="pack">
+              <property name="expand">true</property>
+              <property name="fill">both</property>
+              <property name="padx">5</property>
+              <property name="pady">5</property>
+              <property name="side">left</property>
+            </layout>
+            <child>
+              <object class="ttk.Entry" id="entry_morseCode_input">
+                <property name="width">40</property>
+                <bind sequence="&lt;KeyRelease&gt;" handler="update_entry_morseCode_input" add="" />
+                <layout manager="pack">
+                  <property name="anchor">n</property>
+                  <property name="expand">true</property>
+                  <property name="fill">x</property>
+                  <property name="padx">5</property>
+                  <property name="side">top</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="label21">
+                <property name="text" translatable="yes">Possible Matches:</property>
+                <layout manager="pack">
+                  <property name="side">top</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Treeview" id="treeview_morseCode_matches">
+                <property name="selectmode">extended</property>
+                <layout manager="pack">
+                  <property name="expand">true</property>
+                  <property name="fill">both</property>
+                  <property name="padx">5</property>
+                  <property name="pady">5</property>
+                  <property name="side">top</property>
+                </layout>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Frame" id="frame96">
+        <property name="height">200</property>
+        <property name="width">200</property>
+        <layout manager="pack">
+          <property name="expand">true</property>
+          <property name="fill">x</property>
+          <property name="side">top</property>
+        </layout>
+        <child>
+          <object class="ttk.Frame" id="frame97">
+            <property name="height">200</property>
+            <property name="width">200</property>
+            <layout manager="pack">
+              <property name="expand">true</property>
+              <property name="fill">both</property>
+              <property name="side">left</property>
+            </layout>
+            <child>
+              <object class="ttk.Labelframe" id="labelframe9">
+                <property name="height">200</property>
+                <property name="text" translatable="yes">Complicated Wires</property>
+                <property name="width">200</property>
+                <layout manager="pack">
+                  <property name="expand">true</property>
+                  <property name="fill">both</property>
+                  <property name="padx">5</property>
+                  <property name="pady">5</property>
+                  <property name="side">left</property>
+                </layout>
+                <child>
+                  <object class="ttk.Frame" id="frame99">
+                    <property name="height">200</property>
+                    <property name="width">200</property>
+                    <layout manager="pack">
+                      <property name="anchor">n</property>
+                      <property name="expand">true</property>
+                      <property name="fill">x</property>
+                      <property name="side">top</property>
+                    </layout>
+                    <child>
+                      <object class="ttk.Checkbutton" id="checkbox_complicatedWires_red">
+                        <property name="text" translatable="yes">Red</property>
+                        <layout manager="pack">
+                          <property name="expand">true</property>
+                          <property name="fill">x</property>
+                          <property name="padx">10</property>
+                          <property name="side">top</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="ttk.Checkbutton" id="checkbox_complicatedWires_blue">
+                        <property name="text" translatable="yes">Blue</property>
+                        <layout manager="pack">
+                          <property name="expand">true</property>
+                          <property name="fill">x</property>
+                          <property name="padx">10</property>
+                          <property name="side">top</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="ttk.Checkbutton" id="checkbox_complicatedWires_star">
+                        <property name="text" translatable="yes">Star</property>
+                        <layout manager="pack">
+                          <property name="expand">true</property>
+                          <property name="fill">x</property>
+                          <property name="padx">10</property>
+                          <property name="side">top</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="ttk.Checkbutton" id="checkbox_complicatedWires_LED">
+                        <property name="text" translatable="yes">LED</property>
+                        <layout manager="pack">
+                          <property name="expand">true</property>
+                          <property name="fill">x</property>
+                          <property name="padx">10</property>
+                          <property name="side">top</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Button" id="btn_complicatedWires_clear">
+                    <property name="command" type="command" cbtype="simple">button_complicatedWires_clear</property>
+                    <property name="text" translatable="yes">Clear</property>
+                    <layout manager="pack">
+                      <property name="fill">x</property>
+                      <property name="padx">5</property>
+                      <property name="pady">5</property>
+                      <property name="side">top</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Button" id="btn_complicatedWires_process">
+                    <property name="command" type="command" cbtype="simple">button_complicatedWires_process</property>
+                    <property name="text" translatable="yes">Process</property>
+                    <layout manager="pack">
+                      <property name="anchor">n</property>
+                      <property name="expand">false</property>
+                      <property name="fill">x</property>
+                      <property name="padx">5</property>
+                      <property name="side">top</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="label_complicatedWires_output">
+                    <property name="font">{Cascadia Code} 12 {}</property>
+                    <property name="text" translatable="yes">???</property>
+                    <layout manager="pack">
+                      <property name="anchor">n</property>
+                      <property name="pady">5</property>
+                      <property name="side">top</property>
+                    </layout>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Labelframe" id="labelframe11">
+                <property name="height">200</property>
+                <property name="text" translatable="yes">Wire Sequences</property>
+                <property name="width">200</property>
+                <layout manager="pack">
+                  <property name="expand">true</property>
+                  <property name="fill">both</property>
+                  <property name="pady">5</property>
+                  <property name="side">right</property>
+                </layout>
+                <child>
+                  <object class="ttk.Frame" id="frame106">
+                    <property name="height">200</property>
+                    <property name="width">200</property>
+                    <layout manager="pack">
+                      <property name="anchor">n</property>
+                      <property name="expand">true</property>
+                      <property name="fill">x</property>
+                      <property name="side">top</property>
+                    </layout>
+                    <child>
+                      <object class="ttk.Frame" id="frame107">
+                        <property name="height">200</property>
+                        <property name="width">200</property>
+                        <layout manager="pack">
+                          <property name="expand">true</property>
+                          <property name="fill">x</property>
+                          <property name="padx">5</property>
+                          <property name="side">left</property>
+                        </layout>
+                        <child>
+                          <object class="ttk.Label" id="label31">
+                            <property name="text" translatable="yes">Reds:</property>
+                            <layout manager="pack">
+                              <property name="side">top</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Spinbox" id="spinbox_wireSequences_reds">
+                            <property name="from_">0</property>
+                            <property name="text" translatable="yes">0</property>
+                            <property name="to">10</property>
+                            <property name="width">5</property>
+                            <layout manager="pack">
+                              <property name="expand">true</property>
+                              <property name="fill">x</property>
+                              <property name="side">top</property>
+                            </layout>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="ttk.Frame" id="frame108">
+                        <property name="height">200</property>
+                        <property name="width">200</property>
+                        <layout manager="pack">
+                          <property name="expand">true</property>
+                          <property name="fill">x</property>
+                          <property name="side">right</property>
+                        </layout>
+                        <child>
+                          <object class="ttk.Frame" id="frame109">
+                            <property name="height">200</property>
+                            <property name="width">200</property>
+                            <layout manager="pack">
+                              <property name="expand">true</property>
+                              <property name="fill">x</property>
+                              <property name="side">left</property>
+                            </layout>
+                            <child>
+                              <object class="ttk.Label" id="label32">
+                                <property name="text" translatable="yes">Blues:</property>
+                                <layout manager="pack">
+                                  <property name="side">top</property>
+                                </layout>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="ttk.Spinbox" id="spinbox_wireSequences_blues">
+                                <property name="from_">0</property>
+                                <property name="text" translatable="yes">0</property>
+                                <property name="to">10</property>
+                                <property name="width">5</property>
+                                <layout manager="pack">
+                                  <property name="expand">true</property>
+                                  <property name="fill">x</property>
+                                  <property name="side">top</property>
+                                </layout>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Frame" id="frame110">
+                            <property name="height">200</property>
+                            <property name="width">200</property>
+                            <layout manager="pack">
+                              <property name="expand">true</property>
+                              <property name="fill">x</property>
+                              <property name="padx">5</property>
+                              <property name="side">right</property>
+                            </layout>
+                            <child>
+                              <object class="ttk.Label" id="label33">
+                                <property name="text" translatable="yes">Blacks:</property>
+                                <layout manager="pack">
+                                  <property name="side">top</property>
+                                </layout>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="ttk.Spinbox" id="spinbox_wireSequences_blacks">
+                                <property name="from_">0</property>
+                                <property name="text" translatable="yes">0</property>
+                                <property name="to">10</property>
+                                <property name="width">5</property>
+                                <layout manager="pack">
+                                  <property name="expand">true</property>
+                                  <property name="fill">x</property>
+                                  <property name="side">top</property>
+                                </layout>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Button" id="btn_wireSequences_reset">
+                    <property name="command" type="command" cbtype="simple">button_wireSequences_reset</property>
+                    <property name="text" translatable="yes">Reset</property>
+                    <layout manager="pack">
+                      <property name="anchor">n</property>
+                      <property name="expand">true</property>
+                      <property name="fill">x</property>
+                      <property name="padx">5</property>
+                      <property name="pady">5</property>
+                      <property name="side">top</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Frame" id="frame111">
+                    <property name="height">200</property>
+                    <property name="width">200</property>
+                    <layout manager="pack">
+                      <property name="expand">true</property>
+                      <property name="fill">x</property>
+                      <property name="pady">5</property>
+                      <property name="side">top</property>
+                    </layout>
+                    <child>
+                      <object class="ttk.Frame" id="frame112">
+                        <property name="height">200</property>
+                        <property name="width">200</property>
+                        <layout manager="pack">
+                          <property name="expand">true</property>
+                          <property name="fill">x</property>
+                          <property name="padx">5</property>
+                          <property name="side">left</property>
+                        </layout>
+                        <child>
+                          <object class="ttk.Button" id="btn_wireSequences_red">
+                            <property name="command" type="command" cbtype="simple">button_wireSequences_red</property>
+                            <property name="text" translatable="yes">Red</property>
+                            <layout manager="pack">
+                              <property name="expand">true</property>
+                              <property name="fill">x</property>
+                              <property name="side">top</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Button" id="btn_wireSequences_blue">
+                            <property name="command" type="command" cbtype="simple">button_wireSequences_blue</property>
+                            <property name="text" translatable="yes">Blue</property>
+                            <layout manager="pack">
+                              <property name="expand">true</property>
+                              <property name="fill">x</property>
+                              <property name="side">top</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Button" id="btn_wireSequences_black">
+                            <property name="command" type="command" cbtype="simple">button_wireSequences_black</property>
+                            <property name="text" translatable="yes">Black</property>
+                            <layout manager="pack">
+                              <property name="expand">true</property>
+                              <property name="fill">x</property>
+                              <property name="side">top</property>
+                            </layout>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="ttk.Frame" id="frame113">
+                        <property name="height">200</property>
+                        <property name="width">200</property>
+                        <layout manager="pack">
+                          <property name="expand">true</property>
+                          <property name="fill">x</property>
+                          <property name="padx">5</property>
+                          <property name="side">right</property>
+                        </layout>
+                        <child>
+                          <object class="ttk.Button" id="btn_wireSequences_A">
+                            <property name="command" type="command" cbtype="simple">button_wireSequences_A</property>
+                            <property name="text" translatable="yes">A</property>
+                            <layout manager="pack">
+                              <property name="expand">true</property>
+                              <property name="fill">x</property>
+                              <property name="side">top</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Button" id="btn_wireSequences_B">
+                            <property name="command" type="command" cbtype="simple">button_wireSequences_B</property>
+                            <property name="text" translatable="yes">B</property>
+                            <layout manager="pack">
+                              <property name="expand">true</property>
+                              <property name="fill">x</property>
+                              <property name="side">top</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Button" id="btn_wireSequences_C">
+                            <property name="command" type="command" cbtype="simple">button_wireSequences_C</property>
+                            <property name="text" translatable="yes">C</property>
+                            <layout manager="pack">
+                              <property name="expand">true</property>
+                              <property name="fill">x</property>
+                              <property name="side">top</property>
+                            </layout>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Entry" id="entry_wireSequences_wireSymbol">
+                    <layout manager="pack">
+                      <property name="expand">true</property>
+                      <property name="fill">x</property>
+                      <property name="padx">5</property>
+                      <property name="side">top</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Button" id="btn_wireSequences_process">
+                    <property name="command" type="command" cbtype="simple">button_wireSequences_process</property>
+                    <property name="text" translatable="yes">Process</property>
+                    <layout manager="pack">
+                      <property name="expand">true</property>
+                      <property name="fill">x</property>
+                      <property name="padx">5</property>
+                      <property name="pady">5</property>
+                      <property name="side">top</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="label_wireSequences_output">
+                    <property name="font">{Cascadia Code} 12 {}</property>
+                    <property name="text" translatable="yes">???</property>
+                    <layout manager="pack">
+                      <property name="pady">5</property>
+                      <property name="side">top</property>
+                    </layout>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Labelframe" id="labelframe12">
+            <property name="height">200</property>
+            <property name="text" translatable="yes">Passwords</property>
+            <property name="width">200</property>
+            <layout manager="pack">
+              <property name="expand">true</property>
+              <property name="fill">both</property>
+              <property name="padx">5</property>
+              <property name="pady">5</property>
+              <property name="side">right</property>
+            </layout>
+            <child>
+              <object class="ttk.Entry" id="entry_passwords_first">
+                <bind sequence="&lt;KeyRelease&gt;" handler="update_treeview_passwords" add="" />
+                <layout manager="pack">
+                  <property name="expand">true</property>
+                  <property name="fill">x</property>
+                  <property name="padx">5</property>
+                  <property name="side">top</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="entry_passwords_second">
+                <bind sequence="&lt;KeyRelease&gt;" handler="update_treeview_passwords" add="" />
+                <layout manager="pack">
+                  <property name="expand">true</property>
+                  <property name="fill">x</property>
+                  <property name="padx">5</property>
+                  <property name="side">top</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Entry" id="entry_passwords_third">
+                <bind sequence="&lt;KeyRelease&gt;" handler="update_treeview_passwords" add="" />
+                <layout manager="pack">
+                  <property name="expand">true</property>
+                  <property name="fill">x</property>
+                  <property name="padx">5</property>
+                  <property name="side">top</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Label" id="label36">
+                <property name="text" translatable="yes">Possible Matches:</property>
+                <layout manager="pack">
+                  <property name="side">top</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Treeview" id="treeview_passwords">
+                <property name="selectmode">extended</property>
+                <layout manager="pack">
+                  <property name="expand">true</property>
+                  <property name="fill">x</property>
+                  <property name="padx">5</property>
+                  <property name="pady">5</property>
+                  <property name="side">top</property>
+                </layout>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
